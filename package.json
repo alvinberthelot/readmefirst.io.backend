@@ -1,0 +1,30 @@
+{
+  "name": "readmefirst.io.backend",
+  "version": "1.0.0",
+  "description": "Backend for readmefirst.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinberthelot/readmefirst.io.backend.git"
+  },
+  "keywords": [
+    "ReadMe"
+  ],
+  "author": "Alvin Berthelot",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alvinberthelot/readmefirst.io.backend/issues"
+  },
+  "homepage": "https://github.com/alvinberthelot/readmefirst.io.backend#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "superagent": "^2.0.0-alpha.3"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
