@@ -1,10 +1,5 @@
 'use strict';
 
-var express = require('express');
-var app = express();
-
-app.get('/', function (req, res) {
-  res.status(200).send('Hello World!');
-});
+var app = require("./server");
 
 app.listen(process.env.PORT || 3000);
